@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #a5aa52;
+}
+#container {
+  text-align: center;
+  margin-top: 12vh;
+  max-width: 50%;
+}
+h1 {
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 3.3em;
+  color: chocolate;
+  margin-bottom: 1em;
+}
+p {
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 1.3em;
+}
+#main_instruction {
+  font-size: 1.5em;
+  border: 2px double black;
+  margin-bottom: 1em;
+  padding: 0.3em;
+}
+#quizz {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.form-group {
+  margin: 0 auto;
+  width: 50%;
+}
+#reponse {
+  margin-bottom: 0.3em;
+}
+#validation {
+  max-width: 100%;
+}
+#resultat {
+  margin-top: 0.5em;
+}
